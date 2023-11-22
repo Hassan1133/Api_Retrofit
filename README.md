@@ -1,1 +1,1 @@
-# Fetch Api using Retrofit and show data in app through recyclerview
+# Fetch data from phpMyAdmin database using Retrofit and show data in App through recyclerView
