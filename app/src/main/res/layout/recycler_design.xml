@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="20dp">
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="1dp"
+        android:layout_height="53dp"
+        android:background="#FF9800"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/recycler_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hassan"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_info_24"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        />
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF9800"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/recycler_name"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

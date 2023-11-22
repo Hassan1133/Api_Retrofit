@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ADD STUDENT"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_below="@+id/heading"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="enter your name" />
+
+    <TextView
+        android:id="@+id/father_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father Name :"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_below="@+id/student_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/student_father_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/father_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="enter your father's name" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department :"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_below="@+id/student_father_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/student_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/department"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="enter your department" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_below="@+id/student_department"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/student_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="example@gmail.com" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/student_email"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:backgroundTint="#FF9800"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>
